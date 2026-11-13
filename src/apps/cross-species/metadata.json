@@ -1,0 +1,6 @@
+{
+  "name": "OmniSci Foundry: Cross-Species Sensor Matrix",
+  "description": "An interactive simulation workspace designed to analyze human evolutionary sensory bottlenecks using dynamic filter attenuation controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
