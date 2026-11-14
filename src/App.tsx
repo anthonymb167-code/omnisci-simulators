@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CrossSpeciesApp from './apps/cross-species/src/App';
 import DimensionalApp from './apps/dimensional-structures/src/App';
+import EcosystemFooter from './components/EcosystemFooter';
 
 const TAB_GUIDES = {
   sensors: {
@@ -86,6 +87,8 @@ export default function App() {
         {activeTab === 'sensors' && <CrossSpeciesApp />}
         {activeTab === 'dimensions' && <DimensionalApp />}
       </main>
+
+      <EcosystemFooter currentApp="OmniSci Simulators" />
     </div>
   );
 }
